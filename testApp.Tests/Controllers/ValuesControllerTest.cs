@@ -26,7 +26,7 @@ namespace testApp.Tests.Controllers
             Assert.IsNotNull(result);
             Assert.AreEqual(3, result.Count());
             Assert.AreEqual("value1", result.ElementAt(0));
-            Assert.AreEqual("value2", result.ElementAt(0));
+            Assert.AreEqual("value2", result.ElementAt(1));
         }
 
         [TestMethod]
